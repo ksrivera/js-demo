@@ -9,10 +9,22 @@ console.log('Hello World');
 
 console.log(20, 'Hello', true);
 
-console.warn('warn');
-console.alert();
+//Log a variable
+const x = 100;
+console.log(x);
 
+
+//console error & warning
+console.error('Alert');
+console.warn("Warning");
+
+//log object as a table
+console.table({name: "Kenneth", email: "ksrivera7@gmail.com"});
+
+
+//Group console commands
 console.group('simple');
 console.warn('warning');
 console.alert('alert');
+console.log(x);
 console.groupEnd();
